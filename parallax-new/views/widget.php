@@ -153,10 +153,10 @@ foreach ($items as $i => $item) :
 
             </div>
             <?php endif; ?>
-            <div class="uk-flex uk-flex-between no-shadow">
-                <div class="uk-label"><?= $item['author'] ?></div>
-                <div class="uk-label"><?php echo JHtml::_('date', $item['date'], JText::_('DATE_FORMAT_LC3')); ?></div>
-                <div class="uk-label"><?= key($item['categories']) ?></div>
+            <div class="uk-flex uk-flex-between no-shadow uk-margin-large-top">
+                <div class="ib-label"><?= $item['author'] ?></div>
+                <div class="ib-label"><?php echo JHtml::_('date', $item['date'], JText::_('DATE_FORMAT_LC3')); ?></div>
+                <div class="ib-label"><?= key($item['categories']) ?></div>
             </div>
 
         </div>
